@@ -7,7 +7,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Hello, World!"
+    """
+    """
+    return "Hello, Wlecome to Cloud World!"
 
 @app.route('/api/v1.0/collectFacts', methods=['POST'])
 def collectFacts():
